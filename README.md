@@ -4,14 +4,13 @@ Isaac Godsey – CS Projects
 Description:
 A C++ program that simulates the classic producer/consumer problem using multithreading with the pthread library. Demonstrates thread creation, synchronization using mutexes and semaphores, and safe access to a shared buffer.
 
-How to compile
-g++ producer_consumer.cpp -lpthread
-
+How to compile:
+enter "g++ producer_consumer.cpp -lpthread"
 
 This generates the executable (default: a.out).
 
-How to Run
-./a.out <simulation_length> <max_thread_sleep> <num_producers> <num_consumers> <display_buffer>
+How to Run:
+enter ./a.out <simulation_length> <max_thread_sleep> <num_producers> <num_consumers> <display_buffer>
 
 Parameters:
 
